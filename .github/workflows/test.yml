@@ -1,5 +1,5 @@
 name: build && deploy react app
-on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 jobs:
   build_react:
     runs-on: ubuntu-latest
