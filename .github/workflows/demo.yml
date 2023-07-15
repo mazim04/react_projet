@@ -30,7 +30,7 @@ jobs:
           name: my-artifact
           path: dist
   deploy:
-    # needs: build
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Get artifact
